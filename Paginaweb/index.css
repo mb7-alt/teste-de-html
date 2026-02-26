@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(134, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 200%;
+    font-style: italic;
+    font-family: 'ZomperGlyphs';
+}
+
+img{
+    border-radius: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
+    width: 200px;
+    height: 200px;
+}
+
+.foto-post {
+    filter: sepia(0.8);
+    filter: blur(5px);
+    filter: hue-rotate(90deg);
+    scale: (10.0)
+}
+
+img:hover{
+    transform: scale(15.0);
+    filter: hue-rotate(3600deg);
+    cursor:pointer;
+    transition: 10.0s;
+}
+
+.Video {
+    width: 400px;
+    height: 400px;
+}
+
+.Video:hover{
+    filter: none;
+    transform: scale(1.5);
+    transition: 5.0s;
+}
+
+@font-face {
+    font-family: 'ZomperGlyphs';
+    src: url("New Zomperian.otf");
+}
